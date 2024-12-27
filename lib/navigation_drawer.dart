@@ -23,11 +23,11 @@ class NavigationDrawer extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Cameron Williamson',
+                  'Attendance Tracker',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 Text(
-                  'cameronwilliamson@gmail.com',
+                  'admin@attendancetracker.com',
                   style: TextStyle(color: Colors.white70, fontSize: 14),
                 ),
               ],
@@ -52,6 +52,70 @@ class NavigationDrawer extends StatelessWidget {
             },
           ),
           // Additional ListTiles for other navigation items...
+          ListTile(
+            leading: Icon(Icons.timeline_outlined),
+            title: Text('Activity'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.piano_rounded),
+            title: Text('Timesheet'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.my_library_books_rounded),
+            title: Text('Report'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.apartment_outlined),
+            title: Text('Jobsite'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.group),
+            title: Text('Team'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          // Additional ListTiles for other navigation items...
+          ListTile(
+            leading: Icon(Icons.calendar_today_outlined),
+            title: Text('Schedules'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person_add),
+            title: Text('Request to join organization'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+           ListTile(
+            leading: Icon(Icons.help_center_outlined),
+            title: Text('FAQ & Help'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.privacy_tip),
+            title: Text('Privacy & Policy'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
         ],
       ),
     );
