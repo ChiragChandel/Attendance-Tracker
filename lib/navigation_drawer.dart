@@ -111,7 +111,7 @@ class NavigationDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.privacy_tip),
-            title: Text('Privacy & Policy'),
+            title: Text('Privacy '),
             onTap: () {
               Navigator.pop(context);
             },
