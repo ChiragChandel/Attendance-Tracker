@@ -15,7 +15,7 @@ dependencies:
   geolocator: ^10.0.0
   permission_handler: ^11.0.0
   cupertino_icons: ^1.0.8
-  url_launcher: ^6.1.8
+  url_launcher: ^6.0.10
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +28,20 @@ flutter:
   assets:
     - assets/profile_placeholder.png
     - assets/landing.png
+    - assets/arav.png
+    - assets/aditya.png
+    - assets/ridhima.png
+    - assets/ray.png
+    - assets/anjum.png
+    - assets/ritika.png
+    - assets/nidhi.png
+    - assets/nikhil.png
+    - assets/devinder.png
+    - assets/krish.png
+    - assets/mritunjay.png
+    - assets/kavish.png
+    - assets/yashika.png
+    - assets/parmeet.png
     
   
 

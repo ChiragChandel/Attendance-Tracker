@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'attendance_list.dart';
 
 class NavigationDrawer extends StatelessWidget {
-  const NavigationDrawer({super.key}); // Key parameter added
+  const NavigationDrawer({super.key}); 
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +51,7 @@ class NavigationDrawer extends StatelessWidget {
               );
             },
           ),
-          // Additional ListTiles for other navigation items...
+          //
           ListTile(
             leading: Icon(Icons.timeline_outlined),
             title: Text('Activity'),
@@ -87,7 +87,7 @@ class NavigationDrawer extends StatelessWidget {
               Navigator.pop(context);
             },
           ),
-          // Additional ListTiles for other navigation items...
+          // 
           ListTile(
             leading: Icon(Icons.calendar_today_outlined),
             title: Text('Schedules'),
