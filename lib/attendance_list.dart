@@ -7,11 +7,14 @@ class AttendanceListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Map<String, String>> members = [
-      {'name': 'Wade Warren', 'id': 'WSL0003', 'status': 'Working'},
-      {'name': 'Esther Howard', 'id': 'WSL0034', 'status': 'Logged Out'},
-      {'name': 'Cameron Williamson', 'id': 'WSL0054', 'status': 'Not Logged In'},
-      {'name': 'Brooklyn Simmons', 'id': 'WSL0076', 'status': 'Logged Out'},
+       {'name': 'Aarav Sharma', 'id': 'WSL0003', 'status': 'Working'},
+      {'name': 'Aditya Verma', 'id': 'WSL0034', 'status': 'Logged Out'},
+      {'name': 'Ishan Nair', 'id': 'WSL0054', 'status': 'Not Logged In'},
+      {'name': 'Meera Banerjee', 'id': 'WSL0076', 'status': 'Logged Out'},
       {'name': 'Savannah Nguyen', 'id': 'WSL0065', 'status': 'Logged Out'},
+      {'name': 'Dev Patel', 'id': 'WSL0065', 'status': 'Not Logged In'},
+      {'name': 'Arjun Iyer', 'id': 'WSL0065', 'status': 'Logged Out'},
+      {'name': 'Divya Mishra', 'id': 'WSL0065', 'status': 'Working'},
     ];
 
     return Scaffold(

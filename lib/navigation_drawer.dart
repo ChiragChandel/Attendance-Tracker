@@ -23,11 +23,11 @@ class NavigationDrawer extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Cameron Williamson',
+                  'Ishan Nair',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
                 Text(
-                  'cameronwilliamson@gmail.com',
+                  'ishangnair@gmail.com',
                   style: TextStyle(color: Colors.white70, fontSize: 14),
                 ),
               ],
