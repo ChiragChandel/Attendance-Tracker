@@ -51,6 +51,56 @@ class NavigationDrawer extends StatelessWidget {
               );
             },
           ),
+           ListTile(
+            leading: Icon(Icons.timeline_outlined),
+            title: Text('Activity'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.piano_rounded),
+            title: Text('Timesheet'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.my_library_books_rounded),
+            title: Text('Report'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.apartment_outlined),
+            title: Text('Jobsite'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.group),
+            title: Text('Team'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          // Additional ListTiles for other navigation items...
+          ListTile(
+            leading: Icon(Icons.calendar_today_outlined),
+            title: Text('Schedules'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.calendar_today_outlined),
+            title: Text('Request to join organization'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
           // Additional ListTiles for other navigation items...
         ],
       ),
